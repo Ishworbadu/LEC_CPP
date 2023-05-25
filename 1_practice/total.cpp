@@ -16,5 +16,6 @@ int main() {
 
     std::cout << "Total marks: " << total << std::endl;
 
+
     return 0;
 }
