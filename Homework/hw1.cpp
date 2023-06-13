@@ -1,11 +1,15 @@
+//program to define class,default constructor,access specifier,parameterized constructor
+//method,etc.
+
 #include <iostream>
 using namespace std;
 
-class MyClass {
-private:
+class MyClass  //MyClass is class name
+ {  
+private:    //private is access specifier
     int value;
 
-public:
+public:     //public is access specifier 
     MyClass() {
         value = 0;  // Default constructor
     }
@@ -14,11 +18,13 @@ public:
         value = num;  // Parameterized constructor
     }
 
-    void setValue(int num) {
+    void setValue(int num)   //setValue is method
+    {
         value = num;
     }
 
-    int getValue() {
+    int getValue()       //getValue is method
+    {
         return value;
     }
 };
